@@ -3,7 +3,7 @@ import 'dayjs/locale/ja'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
 import locale from 'antd/locale/ja_JP'
 import {ConfigProvider, DatePicker, Input, TimePicker, Select, AutoComplete, Button, Form} from "antd"
-import {constructionDivisions} from "@/Unions/construction-divisions";
+import {constructionDivisions} from "@/const/construction-divisions";
 import {Aubrey} from "next/dist/compiled/@next/font/dist/google";
 import {useState} from "react";
 
